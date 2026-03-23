@@ -123,3 +123,16 @@ section img {
     flex-direction: column;
   }
 }
+.cta-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--background);
+  background-color: var(--primary);
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
