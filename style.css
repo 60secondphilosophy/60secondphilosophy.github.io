@@ -1,0 +1,71 @@
+:root {
+  --primary: #B3001B;
+  --background: #E8E3D3;
+  --text: #1F1F1F;
+  --muted: #6B6B6B;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 760px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Book blocks */
+.book {
+  margin-bottom: 40px;
+}
+
+.book img {
+  max-width: 180px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Subtle divider */
+hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 40px 0;
+}
