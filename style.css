@@ -81,3 +81,24 @@ hr {
 section img {
   display: block;
 }
+.author-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.author-image {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.author-bio {
+  flex: 1;
+}
+@media (max-width: 700px) {
+  .author-section {
+    flex-direction: column;
+  }
+}
