@@ -102,3 +102,24 @@ section img {
     flex-direction: column;
   }
 }
+.book-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.book-image {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.book-info {
+  flex: 1;
+}
+@media (max-width: 700px) {
+  .book-section {
+    flex-direction: column;
+  }
+}
